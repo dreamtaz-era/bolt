@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Thème</title>
+    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+</head>
+<body>
+    <h1>Bienvenue sur Mon Thème</h1>
+    {{ content_for_layout }}
+</body>
+</html>
